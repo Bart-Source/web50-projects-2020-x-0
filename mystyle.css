@@ -2,7 +2,7 @@ table, td, th {
 		  border: 3px solid blue;
 		}
 			
-	 	th {
+	 	body th {
 			background-color: LightGrey;
 		}
 			
