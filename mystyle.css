@@ -1,0 +1,27 @@
+table, td, th {
+		  border: 3px solid blue;
+		}
+			
+	 	th {
+			background-color: LightGrey;
+		}
+			
+		td, th {
+		  border: 2px solid grey;
+		}			
+
+		table {
+		  border-collapse: collapse;
+		}	
+
+		input[type=number] {
+			background-color: yellow;
+		}
+
+		button:hover {
+			background-color: orange;
+		}
+
+		@media print {
+			button[type="button"] { display: none; }
+			{
