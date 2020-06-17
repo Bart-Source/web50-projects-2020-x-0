@@ -22,7 +22,11 @@ table, td, th {
 			background-color: orange;
 		}
 #bart {
-  background-color: yellow;
+  background-color: green;
+}
+
+.pic {
+  color: red;
 }
 
 @media print {
