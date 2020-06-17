@@ -1,9 +1,9 @@
 # web50-projects-2020-x-0
-Project 0 fo CS50 for more detail see https://docs.cs50.net/web/2020/x/projects/0/project0.html
+Project 0 for CS50. For the project assignment details see https://docs.cs50.net/web/2020/x/projects/0/project0.html
 
-The goal of this project was to make a personal website. I chose to create a showcase website that I could show potential employers. This web site contains many of the lessons I have learned in CS50.
+The goal of this project was to make a personal website. I chose to create a showcase website that I could show potential employers. This web site contains the lessons I have learned so far in CS50.
 
-The requirements of this website and how they were implemented is listed below:
+The 11 requirements of this project and how they were implemented are listed below:
 
 1. The website must contain at least four different .html pages, and it should be possible to get from any page on your website to any other page by following one or more hyperlinks.
 
