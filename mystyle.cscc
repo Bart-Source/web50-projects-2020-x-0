@@ -1,18 +1,20 @@
-table, td, th {
-		  border: 3px solid blue;
+$tablebordercolor: blue;
+
+body
+{
+                table{
+		  border: 3px solid $tablebordercolor;
+		  border-collapse: collapse;
 		}
 			
-	 	th {
-			background-color: LightGrey;
-		}
-			
-		td, th {
+		td {
 		  border: 2px solid grey;
 		}			
 
-		table {
-		  border-collapse: collapse;
-		}	
+	 	th {
+		   @extend td;
+		   background-color: LightGrey;
+		}
 
 		input[type=number] {
 			background-color: yellow;
@@ -21,6 +23,8 @@ table, td, th {
 		button:hover {
 			background-color: orange;
 		}
+}
+
 #bart {
   background-color: green;
 }
