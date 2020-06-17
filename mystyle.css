@@ -1,26 +1,20 @@
-table, td, th {
-		  border: 3px solid blue;
-		}
-			
-	 	body th {
-			background-color: LightGrey;
-		}
-			
-		td, th {
-		  border: 2px solid grey;
-		}			
+body table {
+  border: 3px solid blue;
+  border-collapse: collapse;
+}
+body td, body th {
+  border: 2px solid grey;
+}
+body th {
+  background-color: LightGrey;
+}
+body input[type=number] {
+  background-color: yellow;
+}
+body button:hover {
+  background-color: orange;
+}
 
-		table {
-		  border-collapse: collapse;
-		}	
-
-		input[type=number] {
-			background-color: yellow;
-		}
-
-		button:hover {
-			background-color: orange;
-		}
 #bart {
   background-color: green;
 }
@@ -30,10 +24,11 @@ table, td, th {
 }
 
 @media print {
-	button[type="button"] { display: none; }
-	}
-		
-/* If the browser window is 600px or smaller, the background color will be lightblue: */		
+  button[type=button] {
+    display: none;
+  }
+}
+/* If the browser window is 600px or smaller, the background color will be lightblue: */
 @media only screen and (max-width: 600px) {
   body {
     background-color: lightblue;
