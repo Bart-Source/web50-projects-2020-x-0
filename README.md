@@ -1,7 +1,7 @@
 # web50-projects-2020-x-0\
 Project 0 for CS50. For the project assignment details see https://docs.cs50.net/web/2020/x/projects/0/project0.html
 
-The goal of this project was to make a personal website. I chose to create a showcase website that I could show potential employers. This web site contains the lessons I have learned so far in CS50. The website is hosted at https://bart-source.github.io/web50-projects-2020-x-0/readme.html
+The goal of this project was to make a personal website. I chose to create a showcase website that I could show potential employers. This web site contains the lessons I have learned so far in CS50. The website is hosted at https://bart-source.github.io/web50-projects-2020-x-0
 
 The 11 requirements of this project and how they were implemented are listed below:
 
